@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context=".SecondPage">
 
     <TextView
@@ -92,21 +93,21 @@
         android:id="@+id/HUNGER"
         android:layout_width="71dp"
         android:layout_height="30dp"
-        android:text="10"
+        android:text="4"
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.669"
+        app:layout_constraintHorizontal_bias="0.67"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
+        app:layout_constraintVertical_bias="0.754" />
 
     <TextView
         android:id="@+id/CLEANTEXT"
         android:layout_width="70dp"
         android:layout_height="30dp"
-        android:text="10"
+        android:text="4"
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -120,7 +121,7 @@
         android:id="@+id/HAPPY"
         android:layout_width="65dp"
         android:layout_height="24dp"
-        android:text="10"
+        android:text="4"
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -141,5 +142,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.153"
         app:srcCompat="@drawable/download" />
+
+    <TextView
+        android:id="@+id/COMMENT"
+        android:layout_width="209dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
+
+    <Button
+        android:id="@+id/HOME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME PLAGE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
